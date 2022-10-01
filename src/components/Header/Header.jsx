@@ -5,7 +5,7 @@ import logo from '../../logo.svg';
 
 function Header () {
   return (
-    <div className="header">
+    <header className="header">
       <img src={logo} className="App-logo" alt="logo" />
       <img src={logo} className="App-logo" alt="logo" />
             <p>
@@ -20,7 +20,7 @@ function Header () {
               Git Hub Project
             </a>
       <Nav/>
-    </div>
+    </header>
   ) 
      
   
