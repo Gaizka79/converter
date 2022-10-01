@@ -1,20 +1,27 @@
 import React from "react";
+import { Routes, Route } from 'react-router-dom';
+
+import Home from './Home/Home';
+import Temperatura from './Temperatura/Temperatura';
+import Exchange from './Exchange/Exchange';
+import Peso from './Peso/Peso';
+import Velocidad from './Velocidad/Velocidad';
+import Distancia from './Distancia/Distancia';
+import Volumen from './Volumen/Volumen';
 
 function Main () {
   return (
-    <div className="main">
-      Main
-      <div className="converterArea">
-        <p>UNIT CONVERTER</p>
-        <div className="from">
-          <label htmlFor="desde">Desde: </label><input type="text" name="desde"/> <input type="number" />
-        </div>
-        <div className="to">
-          Resultado:
-        </div>
-
-      </div>
-    </div>
+    <main className="main">
+      <Routes>
+        <Route element={<Home/>} path='/'/>
+        <Route element={<Temperatura/>} path='/Temperatura/'/>
+        <Route element={<Exchange/>} path='/Exchange'/>
+        <Route element={<Peso/>} path='/Peso'/>
+        <Route element={<Velocidad/>} path='/Velocidad'/>
+        <Route element={<Distancia/>} path='/Distancia'/>
+        <Route element={<Volumen/>} path='/Volumen'/>
+      </Routes>
+    </main>
   )
 
 }
