@@ -84,10 +84,9 @@ function Temperatura () {
     <div className="temperatura">
       <p>Temperatura</p> 
       <div className="camposdecambio">
-        <input  type="text" className="convertir" onChange={(e) => debounced(e)} name="convertir1" id="convertir1" />
+        <input defaultValue={input} type="text" className="convertir" onChange={(e) => debounced(e)} name="convertir1" id="convertir1" />
         <button><img src={intercambio} alt="intercambio" className="intercambio" id="intercambio" /></button>
-        <input defaultValue={cambio} type="text" className="convertir" name="convertir2" id="convertir2" />
-        {cambio}
+        <input defaultValue={cambio} value={cambio} type="text" className="convertir" name="convertir2" id="convertir2" />
       </div>
 
       <div className="unidades">
