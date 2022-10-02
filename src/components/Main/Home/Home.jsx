@@ -18,10 +18,10 @@ function Home () {
         <div className="iconos">
           <Link /* img={temperatura} */ className="boton" to='/Temperatura'><img src={temperatura} alt="temperatura" id="temperatura"/></Link>
           <Link to='/Exchange' img={exchange} className="boton"><img src={exchange} alt="exchange" id="exchange"/></Link>
-          <button img={peso} className="boton"><img src={peso} alt="peso" id="peso"/></button>
-          <button img={velocidad} className="boton"><img src={velocidad} alt="velocidad" id="velocidad"/></button>
-          <button img={distancia} className="boton"><img src={distancia} alt="distancia" id="distancia"/></button>
-          <button img={volumen} className="boton"><img src={volumen} alt="volumen" id="volumen"/></button>
+          <Link to='/Peso' img={peso} className="boton"><img src={peso} alt="peso" id="peso"/></Link>
+          <Link to='/Velocidad' img={velocidad} className="boton"><img src={velocidad} alt="velocidad" id="velocidad"/></Link>
+          <Link to='/Distancia' img={distancia} className="boton"><img src={distancia} alt="distancia" id="distancia"/></Link>
+          <Link to='/Volumen' img={volumen} className="boton"><img src={volumen} alt="volumen" id="volumen"/></Link>
         </div>
       {/* </div> */}
       {/* <div className="converterArea">
