@@ -1,53 +1,75 @@
-/* /* .App {
-    margin: 0%;
-    padding: 0%;
+*{
+    box-sizing: border-box;
 }
- */
-/* .main {
-    background-color: $color-global-white;
-    height: 100%; */
-/*     margin: 0%;
-    padding: 0%; */
-
-
-   /*  & img {
-        max-width: 20%;
-        height: auto; */
-        //background-color: white;
-        
- /*        
-    };
+.select, .label{
+    font-size: x-large;
 };
-.selecciona {
-    margin: 0;
-    padding: 3em;
-}
-.iconos {
-    //display: flex;
-    border-style: double;
-    border-radius: 2em;
-    border-width: 1em;
-    border-color: black;
-    background-color: aqua;
-    //border: 5em;
-    margin: 1em;
-    
-    
-}
-.campos {
-    background-color: pink;
-    border-style: double;
-} */
-/* img {
-    max-width: 20%;
-    height: auto;
-    background-color: white;
-}; 
 
-.boton {
-    max-width: 25%;
-    height: auto;
-    background-color: $color-secondary;
-    margin: 2em;
+.marcoPrincipal {
+    display: inline-block;
+    background-color: $color-global-white;
+    //border-style: dotted;
+    max-width: 85%;
+    margin-top: 2.5em;
+
     
-} */
+    
+    //background-color: $color-global-white;
+    & .campo {
+        margin: 0;
+        padding: 1em;
+    }
+    & button {
+        max-width: 20%;
+        height: auto;
+    };
+    & #intercambio {
+        max-width: 20%;
+        height: auto;
+    };
+    & .unidad {
+        margin: 0%;
+        padding: 0%;
+    };
+}
+.select {
+    background-color:$color-global-white;
+    //border-style: double;
+
+    max-width: 90%;
+    display: inline-block;
+
+    padding: 0.5em;
+};
+.camposdecambio {
+    background-color: $color-global-white;
+//    border-style: double;
+
+    max-width: 90%;
+    display: inline-block;
+
+    padding: 0.5em;
+    margin: 2em;
+    & .convertir {
+        width: 40%;
+        text-align: center;
+    }
+};
+.unidades {
+    //display: none;
+    background-color: blue;
+    border-style: double;
+
+    width: 90%;
+    display: inline-block;
+
+    padding: 0.5em;
+    //padding-bottom: 2em;
+    margin-bottom: 2em;
+
+    & .unidad {
+        //display: none;
+        font-size: xx-large;
+        width: 90%;
+    }
+}

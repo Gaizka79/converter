@@ -1,4 +1,11 @@
-.temperatura {
+
+/* .marcoPrincipal {
+    max-width: 50%;
+    //background-color: $color-global-white;
+    & .campo {
+        margin: 0;
+        padding: 1em;
+    }
     & button {
         max-width: 20%;
         height: auto;
@@ -6,10 +13,21 @@
     & #intercambio {
         max-width: 20%;
         height: auto;
-    }
-}
+    };
+    & .unidad {
+        margin: 0%;
+        padding: 0%;
+    };
+} */
 
 .intercambio {
     max-width: 20%;
     height: auto;
 }
+
+.convertir {
+    width: 20%;
+    font-size: xx-large;
+    height: 2em;
+}
+
