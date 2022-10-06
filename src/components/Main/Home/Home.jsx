@@ -9,7 +9,6 @@ function Home () {
 
   return (
     <div className="home">
-
       <p className="selecciona"><b>SELECCIONA EL CAMPO A CONVERTIR</b></p>
 
         <select className="select" value={campo} onChange={(e) => setCampo(e.target.value)}>
@@ -21,7 +20,6 @@ function Home () {
         </select> 
 
       {campo ? <Units value={campo}/> : null} 
-
     </div>
   )
 }
