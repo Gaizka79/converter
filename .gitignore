@@ -24,8 +24,10 @@ yarn-error.log*
 
 #.env
 .env
+.env*
 
 apunteak.txt
+pass.txt
 
 
 #Apunteak
